@@ -1,6 +1,6 @@
 
 /*This DDL script creates stages which serve as a landing phase for the files
-from where data is loaded into the first layer, bronze. also provuides ddl scripts for each table  */
+from where data is loaded into the first layer, bronze. also provides ddl scripts for each table  */
 
 /*creating internal staging area that serves as landing phase for each file */
 create or replace stage bronze.erp_staging_area
