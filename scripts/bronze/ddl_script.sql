@@ -5,6 +5,7 @@ create or replace stage bronze.crm_staging_area
 list@bronze.crm_staging_area
 list@bronze.erp_staging_area
 
+  /*creating Tables for each file*/
 create or replace table bronze.crm_cust_info (
 cst_id varchar(50),
 cst_key varchar(50),
